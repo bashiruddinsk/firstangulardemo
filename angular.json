@@ -78,6 +78,9 @@
             },
             "development": {
               "buildTarget": "firstangulardemo:build:development"
+            },
+            "options":{
+              "proxyConfig": "./src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
@@ -107,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7c5a8fc1-11c5-4794-a466-a569550c6a04"
   }
 }
